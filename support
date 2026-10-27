@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support — FeedsTracker</title>
+  <meta name="description" content="Help, answers to common questions, and contact details for the FeedsTracker baby feeding tracker.">
+  <meta property="og:title" content="Support — FeedsTracker">
+  <meta property="og:description" content="Help, answers to common questions, and contact details for the FeedsTracker baby feeding tracker.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+  <style>
+    :root { color-scheme: light dark; --background: #fafafa; --text: #202124; --muted: #545960; --link: #185abc; --line: #d7dbe0; --notice: #eef4fc; }
+    @media (prefers-color-scheme: dark) { :root { --background: #18191b; --text: #f1f3f4; --muted: #bdc1c6; --link: #a8c7fa; --line: #454950; --notice: #252d39; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--background); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 16px; line-height: 1.7; }
+    main { max-width: 780px; margin: 0 auto; padding: 40px 20px 64px; overflow-wrap: anywhere; }
+    header { border-bottom: 1px solid var(--line); padding-bottom: 24px; }
+    h1 { font-size: 32px; line-height: 1.25; margin: 0 0 12px; }
+    h2 { font-size: 22px; line-height: 1.4; margin: 32px 0 12px; }
+    p, ul { margin: 12px 0; }
+    ul { padding-left: 24px; }
+    li + li { margin-top: 8px; }
+    a { color: var(--link); text-underline-offset: 3px; }
+    a:focus-visible { outline: 2px solid var(--link); outline-offset: 4px; }
+    .meta { color: var(--muted); }
+    .notice { background: var(--notice); border-left: 3px solid var(--link); padding: 16px; margin: 24px 0; }
+    footer { border-top: 1px solid var(--line); margin-top: 32px; padding-top: 16px; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="meta">FeedsTracker</p>
+      <h1>Support</h1>
+      <p class="meta">Help for the FeedsTracker iPhone and Android apps.</p>
+    </header>
+
+    <section aria-labelledby="contact">
+      <h2 id="contact">Contact us</h2>
+      <p>Email <a href="mailto:thevellorastudios@gmail.com"><strong>thevellorastudios@gmail.com</strong></a>.
+        Please include your device model, operating system version, and app version, and describe what happened.
+        We aim to reply within a few working days.</p>
+      <p>Please do not send medical questions. FeedsTracker is a record-keeping tool and does not give medical advice —
+        contact your doctor, midwife, or health visitor about your baby's feeding or health.</p>
+    </section>
+
+    <section aria-labelledby="faq">
+      <h2 id="faq">Frequently asked questions</h2>
+
+      <h3>Do I need an account?</h3>
+      <p>No. FeedsTracker has no accounts. Your baby's details and feeding records are stored only on your device.</p>
+
+      <h3>How do I record a breastfeed?</h3>
+      <p>On Home, tap <strong>L</strong> (left) or <strong>R</strong> (right). The timer starts immediately and keeps
+        running if you leave the app. Tap <strong>Finish Feed</strong> when you are done.</p>
+
+      <h3>How do I record a bottle feed?</h3>
+      <p>On Home, tap <strong>Bottle</strong>, enter the amount, choose ml or oz, set the time, and tap <strong>Save Feed</strong>.</p>
+
+      <h3>How do I correct or delete a feed?</h3>
+      <p>Open <strong>History</strong>, find the feed, and tap <strong>Edit</strong> or <strong>Delete</strong>.
+        Breastfeeding duration is calculated from the start and end times.</p>
+
+      <h3>Reminders are not appearing</h3>
+      <ul>
+        <li>Check reminders are turned on in <strong>Settings</strong> in the app.</li>
+        <li>Allow notifications for FeedsTracker in your device settings.</li>
+        <li>Check Focus / Do Not Disturb modes and battery-saving settings, which can hold back notifications.</li>
+      </ul>
+
+      <h3>Can I move my data to a new phone?</h3>
+      <p>Not at the moment. Because data stays only on your device, there is no cloud backup or sync.
+        Deleting the app removes its data.</p>
+
+      <h3>How do I delete all my data?</h3>
+      <p>Go to <strong>Settings → Delete All Data</strong> and confirm. You can also delete the app.</p>
+
+      <h3>How do I change my ad privacy choices?</h3>
+      <p>Go to <strong>Settings → Privacy &amp; Ads</strong> to review or change your consent choices.</p>
+    </section>
+
+    <footer>
+      <p>FeedsTracker is provided by Vellora Studios. Read our <a href="../">Privacy Policy</a>.</p>
+    </footer>
+  </main>
+</body>
+</html>
